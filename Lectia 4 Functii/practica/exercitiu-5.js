@@ -36,7 +36,7 @@ function updateCourse(oldName, newName) {
     courses[index] = newName;
   }
 }
-
+console.log(window.c);
 addCourse("Romana");
 addCourse("Mate");
 addCourse("HTML");
