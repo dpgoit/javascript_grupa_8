@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module 6 - Lesson 12</title>
+
+    <!-- <script defer src="./script.js"></script> -->
+    <!-- <script defer src="./exercitiu-1.js"></script> -->
+    <!-- <script defer src="./exercitiu-2.js"></script> -->
+    <script defer src="./exercitiu-3.js"></script>
+
+    <style>
+      body {
+        background-color: #1e2125;
+        color: #fff;
+      }
+
+      .my-block {
+        width: 100px;
+        height: 100px;
+        background-color: tomato;
+        margin: 50px;
+      }
+
+      .my-block-blue {
+        background-color: cornflowerblue;
+      }
+
+      .toggle-button {
+        margin: 50px;
+      }
+
+      .form-error {
+        background-color: tomato;
+      }
+
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+      }
+
+      /* Modal Content */
+      .modal-content {
+        position: absolute;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        border: 1px solid #888;
+        width: 80%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: black;
+      }
+
+      /* The Close Button */
+      .close {
+        color: black;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <button class="btn-test">Click ME!</button>
+
+    <input type="email" name="email" id="email" /> -->
+
+    <!-- <form id="form">
+      <input type="email" name="email" id="email" />
+      <input type="password" name="password" id="password" />
+      <input type="text" name="password" id="password" />
+      <button type="submit">LOGIN</button>
+    </form> -->
+    <!-- EXERCITIU 1 -->
+    <!-- <div>
+      <div class="my-block"></div>
+      <button class="toggle-button">Toggle Color</button>
+    </div> -->
+
+    <!-- EXERCITIU 2 -->
+
+    <!-- <div class="container">
+      <form action="" name="login" id="loginForm">
+        <h1>Login</h1>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          autocomplete="off"
+          placeholder="Enter your username..."
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          autocomplete="off"
+          placeholder="Enter your password..."
+        />
+        <button type="submit">Login</button>
+      </form>
+
+      <form action="" name="register" id="registerForm">
+        <h1>Register</h1>
+        <input
+          type="text"
+          name="username"
+          id="username-register"
+          autocomplete="off"
+          placeholder="Enter your username..."
+        />
+        <input
+          type="password"
+          name="password"
+          id="password-register"
+          autocomplete="off"
+          placeholder="Enter your password..."
+        />
+        <button type="submit">Register</button>
+        <br />
+        <span class="form-errors"></span>
+      </form>
+    </div> -->
+
+    <!-- EXERCITIU 3 -->
+    <br />
+    <br />
+
+    <button id="myBtn">Open Modal</button>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+      </div>
+    </div>
+  </body>
+</html>
